@@ -1,10 +1,4 @@
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-html {
-  box-sizing: border-box; }
-
-@media all and (max-width: 600px) {
+@media all and (max-width: 40em) {
   .little-table {
     display: block; }
     .little-table thead {

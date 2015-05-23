@@ -21,6 +21,5 @@ var littleTable = (function(window, document) {
     }
   }
 
-  init();
   return init;
 })(this, document);
