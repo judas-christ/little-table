@@ -11,5 +11,16 @@ html {
       display: none; }
     .little-table tbody, .little-table tr, .little-table td {
       display: block; }
-    .little-table td:before {
-      content: attr(data-little-heading); } }
+    .little-table tr + tr {
+      border-top: 1px solid #ddd;
+      margin-top: .5em;
+      padding-top: .5em; }
+    .little-table td {
+      position: relative;
+      padding-left: 6em; }
+      .little-table td:before {
+        content: attr(data-little-heading);
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        width: 6em; } }
