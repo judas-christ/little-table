@@ -1,0 +1,15 @@
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+@media all and (max-width: 600px) {
+  .little-table {
+    display: block; }
+    .little-table thead {
+      display: none; }
+    .little-table tbody, .little-table tr, .little-table td {
+      display: block; }
+    .little-table td:before {
+      content: attr(data-little-heading); } }
